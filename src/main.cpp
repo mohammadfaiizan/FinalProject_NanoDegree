@@ -1,6 +1,10 @@
-#include <iostream>
+#include <UI.h>
+#include <cstdio>
 
-int main() {
-    std::cout << "Hello World!" << "\n";
-    return 0;
+int main(int argc, char *args[])
+{
+	Ui ui;
+    ui.init();
+  	ui.start();
+  	return 0;
 }
